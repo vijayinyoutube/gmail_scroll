@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'Widgets/ExtFAB.dart';
 import 'Widgets/FAB.dart';
 
@@ -35,8 +34,6 @@ class _MyHomePageState extends State<MyHomePage> {
     _scrollController.dispose();
   }
 
-  double animationValue = 10;
-  bool pressed = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

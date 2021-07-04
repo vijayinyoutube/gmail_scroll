@@ -8,14 +8,10 @@ Widget buildExtendedFAB() => AnimatedContainer(
       child: FloatingActionButton.extended(
         onPressed: () {},
         icon: Icon(Icons.edit),
-        label: AnimatedContainer(
-          duration: Duration(seconds: 1),
-          curve: Curves.fastOutSlowIn,
-          child: Center(
-            child: Text(
-              "Compose",
-              style: TextStyle(fontSize: 15, color: Colors.white),
-            ),
+        label: Center(
+          child: Text(
+            "Compose",
+            style: TextStyle(fontSize: 15, color: Colors.white),
           ),
         ),
       ),
